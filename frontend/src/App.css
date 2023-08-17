@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Customer SingUp or Banker SingUp Page Styling */
+
+.signUpContainer {
+  width: 100%;
+  height: 936px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signUpContainer .box {
+  width: 700px;
+  height: 670px;
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgb(167, 167, 167);
+}
+.signUpContainer .box h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.signUpContainer .box .btn1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.signUpContainer .box .btn1 p {
+  padding-top: 20px;
+}
+.signUpContainer .box a {
+  text-decoration: none;
+}
+.signUpContainer .box .loginLink {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+/* Login Page Styling */
+
+.signUpContainer .loginBox {
+  width: 500px;
+  height: 450px;
+}
+.signUpContainer .loginBox h1 {
+  padding-bottom: 40px;
+}
+.signUpContainer .loginBox .btn1 {
+  padding-top: 30px;
+}
+.signUpContainer .loginBox .btn1 a {
+  text-decoration: none;
+}
+
+/* Banker Home and Transaction Page Styling */
+
+.bankerHomeContainer,
+.transactionContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bankerHomeContainer .inner_bankerBox,
+.transactionContainer .inner_bankerBox {
+  width: 80%;
+  height: 700px;
+  margin-top: 60px;
+  position: relative;
+}
+.bankerHomeContainer .inner_bankerBox .heading,
+.transactionContainer .inner_bankerBox .heading {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(243, 240, 240);
+}
+.bankerHomeContainer .inner_bankerBox table,
+.transactionContainer .inner_bankerBox table {
+  position: relative;
+  margin-top: 40px;
+}
+.bankerHomeContainer .inner_bankerBox table tbody {
+  margin-top: 20px;
+  position: absolute;
+  overflow-y: scroll;
+  height: 600px;
+  width: 100%;
+}
+
+/* Navbar Component Styling */
+
+.removeTextDec a {
+  text-decoration: none;
+  color: white;
+}
+.removeTextDec a:hover {
+  color: rgb(250, 6, 59);
+}
+
+/* Customer Home Page Styling */
+
+.customerHomeContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 800px;
+}
+.customerHomeContainer .cardOne {
+  width: 70%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customerHomeContainer .cardOne .card {
+  width: 59%;
+  height: 297px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 40px;
+}
+.customerHomeContainer .cardOne .card img {
+  width: 200px;
+  border-radius: 50%;
+}
+.customerHomeContainer .cardOne .card .card-body .card-title {
+  font-size: 27px;
+  padding-left: 87px;
+}
+.customerHomeContainer .allBoxes {
+  width: 70%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.customerHomeContainer .allBoxes button {
+  width: 200px;
+  height: 200px;
+  font-size: 22px;
+  font-weight: 800;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 0, 76),
+    rgb(179, 44, 150)
+  );
+  border: none;
+}
+.forFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+  height: 100px;
+  flex-direction: row;
+}
+.forFlex input {
+  width: 270px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 3px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid rgb(255, 7, 56);
+}
+
+/* Transaction Amount Page Styling */
+
+.transactionAmountForm {
+  padding-top: 30px;
+}
+.transactionAmountForm .transactionAmountBtn {
+  padding-top: 40px;
+}
